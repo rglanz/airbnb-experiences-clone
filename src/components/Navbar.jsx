@@ -1,8 +1,12 @@
 import React from 'react'
+import logo from '../assets/logo.png'
+
 
 function Navbar() {
     return(
-        <h1>Navbar</h1>
+        <nav className="nav">
+            <img src={logo} alt="" className="nav__logo"/>
+        </nav>
     )
 }
 

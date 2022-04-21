@@ -4,9 +4,131 @@
 
 :root{
   --color-light: #fff;
+
+  --color-font-primary: #000;
+  --color-font-secondary: #222222;
+  --color-font-tertiary: #918E9B;
+
+  --font-family: Poppins;
+  --font-weight: 300;
+  --font-weight-bold: 600;
 }
 
 body {
   margin: 0;
   padding: 0;
+
+  font-family: var(--font-family), sans-serif;
+  font-weight: var(--font-weight);
+  color: var(--color-font-primary)
+}
+
+/* Navbar */
+
+.nav {
+  height: 70px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.nav__logo {
+  width: 82px;
+  height: 25px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 30px;
+}
+
+/* Main Content */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__img {
+  width: 395px;
+  height: 232px;
+  margin-top: 26px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__title {
+  width: 347px;
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  margin-left: 36px;
+  margin-right: auto;
+
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.main__text {
+  width: 320px;
+  height: 56px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  margin-left: 36px;
+  margin-right: auto;
+
+  font-size: 16px;
+  line-height: 110%;
+  color: var(--color-font-secondary);
+}
+
+/* Card */
+
+.card {
+  margin-top: 49px;
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  width: 176px;
+  height: 235px;
+}
+
+.card__rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  height: 14px;
+}
+
+.card__rating-star {
+  margin-right: 3px;
+  width: 14px;
+  height: 14px;
+}
+
+.card__rating-location {
+  margin-left: 2px;
+
+  color: var(--color-font-tertiary)
+}
+
+.card__description {
+  margin-top: 8px;
+  margin-bottom: 0;
+  width: 175px;
+  height: 14px;
+
+  font-size: 12px;
+  line-height: 110%;
+  color: var(--color-font-secondary);
+}
+
+.card__price {
+  margin-top: 8px;
+  width: 144px;
+  height: 14px;
+
+  font-size: 12px;
+  font-weight: var(--font-weight-bold);
+  line-height: 110%;
+  color: var(--color-font-secondary);
 }
