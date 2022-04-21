@@ -1,4 +1,4 @@
-export default [
+const cardData = [
   {
     img: "katie-zaferes.png",
     rating: "5.0",
@@ -6,6 +6,7 @@ export default [
     country: "USA",
     title: "Life lessons with Katie Zaferes",
     price: 136,
+    openSpots: 0,
   },
   {
     img: "wedding-photography.png",
@@ -14,6 +15,7 @@ export default [
     country: "Finland",
     title: "Learn wedding photography",
     price: 125,
+    openSpots: 3,
   },
   {
     img: "mountain-bike.png",
@@ -22,5 +24,8 @@ export default [
     country: "Germany",
     title: "Group Mountain Biking",
     price: 50,
+    openSpots: 5,
   },
 ]
+
+export default cardData
