@@ -80,9 +80,18 @@ body {
 
 /* Card */
 
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
   margin-top: 49px;
   margin-left: 37px;
+  width: 176px;
   display: flex;
   flex-direction: column;
 }
@@ -106,7 +115,7 @@ body {
 }
 
 .card__rating-location {
-  margin-left: 2px;
+  margin-left: 5px;
 
   color: var(--color-font-tertiary)
 }
