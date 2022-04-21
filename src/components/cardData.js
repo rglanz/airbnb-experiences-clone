@@ -7,6 +7,7 @@ const cardData = [
     title: "Life lessons with Katie Zaferes",
     price: 136,
     openSpots: 0,
+    location: "",
   },
   {
     img: "wedding-photography.png",
@@ -16,6 +17,7 @@ const cardData = [
     title: "Learn wedding photography",
     price: 125,
     openSpots: 3,
+    location: "Online",
   },
   {
     img: "mountain-bike.png",
@@ -25,6 +27,7 @@ const cardData = [
     title: "Group Mountain Biking",
     price: 50,
     openSpots: 5,
+    location: "",
   },
 ]
 
