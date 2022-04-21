@@ -9,7 +9,7 @@ function App() {
   const cardElements = cardData.map(item => {
     return(
       <Card 
-        item={item}
+        {...item}
       />
     )
   })
